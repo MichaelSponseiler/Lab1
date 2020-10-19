@@ -32,7 +32,7 @@
         "name": {
             "value": "MyLab1WebApp"
         },
-        "location": {
+        "locationWebapp": {
             "value": "West Europe"
         },
         "hostingPlanName": {
