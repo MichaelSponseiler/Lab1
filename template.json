@@ -2,7 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-         "location": {
+         "locationWebapp": {
             "type": "string"
         },
         "storageAccountName": {
@@ -68,7 +68,7 @@
             "apiVersion": "2018-11-01",
             "name": "[parameters('name')]",
             "type": "Microsoft.Web/sites",
-            "location": "[parameters('location')]",
+            "location": "[parameters('locationWebapp')]",
             "tags":{
                 "displayname": "Webapp"
             },
@@ -90,7 +90,7 @@
             "apiVersion": "2018-02-01",
             "name": "[parameters('hostingPlanName')]",
             "type": "Microsoft.Web/serverfarms",
-            "location": "[parameters('location')]",
+            "location": "[parameters('locationWebapp')]",
             "kind": "linux",
             "tags": {
                 "displayname": "Webapp"
