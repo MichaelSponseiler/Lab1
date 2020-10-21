@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "locationStorageApp": {
+            "value": "westeurope"
+        },
+        "storageAccountName": {
+            "value": "mylab1sdstorage"
+        },
+        "accountType": {
+            "value": "Standard_RAGRS"
+        },
+        "kind": {
+            "value": "StorageV2"
+        },
+        "accessTier": {
+            "value": "Hot"
+        },
+        "minimumTlsVersion": {
+            "value": "TLS1_2"
+        },
+        "supportsHttpsTrafficOnly": {
+            "value": true
+        },
+        "allowBlobPublicAccess": {
+            "value": true
+        },
+        "subscriptionId": {
+            "value": "b2e0bf8e-a54a-4bd6-9ed3-1bde8ce11ea8"
+        },
+        "name": {
+            "value": "MyLab1WebApp"
+        },
+        "locationWebapp": {
+            "value": "West Europe"
+        },
+        "hostingPlanName": {
+            "value": "ASP-FH-a8b0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "FH"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "NODE|12-lts"
+        }
+    }
+}
