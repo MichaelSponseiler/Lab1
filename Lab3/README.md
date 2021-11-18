@@ -21,6 +21,6 @@
 
 <h1>Probleme</h1>
 
-*Größten Probleme mit Linux da wenig bis keine Erfahrung vorhanden
-*Docker build Probleme mit Volumes und Images (müssen nach gewissen Anpassungen gelöscht werden)
-*Allgemein wenig information zu dieser Problemstellung aufgefunden
+* Größten Probleme mit Linux da wenig bis keine Erfahrung vorhanden
+* Docker build Probleme mit Volumes und Images (müssen nach gewissen Anpassungen gelöscht werden)
+* Allgemein wenig information zu dieser Problemstellung aufgefunden
